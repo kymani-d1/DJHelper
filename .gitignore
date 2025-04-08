@@ -44,3 +44,5 @@ backups/
 
 # Local development configuration
 .env
+plan.txt
+action_plan.txt

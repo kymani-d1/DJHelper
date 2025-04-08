@@ -1,0 +1,63 @@
+{
+    "app": {
+      "name": "Mixxx AI DJ Copilot",
+      "version": "0.1.0",
+      "debug_mode": true
+    },
+    "mixxx": {
+      "script_path": "",
+      "controllers_path": "",
+      "library_path": ""
+    },
+    "database": {
+      "type": "sqlite",
+      "path": "user_data.db",
+      "backup_interval_hours": 24
+    },
+    "data_capture": {
+      "enabled": true,
+      "capture_interval_ms": 500,
+      "log_track_loads": true,
+      "log_effects": true,
+      "log_eq_changes": true,
+      "log_crossfader": true,
+      "log_filter_usage": true
+    },
+    "analysis": {
+      "run_analysis_on_capture": false,
+      "min_actions_for_analysis": 100,
+      "style_analysis_interval_hours": 24
+    },
+    "recommendation": {
+      "enabled": true,
+      "max_recommendations": 5,
+      "consider_bpm": true,
+      "consider_key": true,
+      "consider_genre": true,
+      "bpm_tolerance": 6.0,
+      "use_camelot_wheel": true
+    },
+    "soundcloud": {
+      "api_enabled": false,
+      "client_id": "",
+      "client_secret": "",
+      "max_results": 10,
+      "cache_results_hours": 24
+    },
+    "ui": {
+      "theme": "dark",
+      "show_recommendations": true,
+      "show_style_analytics": true,
+      "notifications_enabled": true
+    },
+    "features": {
+      "track_recommendation": true,
+      "style_analysis": true,
+      "auto_effects": false,
+      "auto_eq": false,
+      "set_generation": false
+    },
+    "user_preferences": {
+      "current_profile": "default"
+    }
+  }
